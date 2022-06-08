@@ -1,0 +1,36 @@
+{
+  "name": "gestion_de_riesgos",
+  "version": "1.0.0",
+  "description": "Sistema de Gestion de Riesgos De: Marlon Miller y Marlon Miller",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmiller2001/Gestion-de-Riesgos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmiller2001/Gestion-de-Riesgos/issues"
+  },
+  "homepage": "https://github.com/mmiller2001/Gestion-de-Riesgos#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-mysql-session": "^2.1.8",
+    "express-validator": "^6.14.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

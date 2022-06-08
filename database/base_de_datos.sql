@@ -2,7 +2,7 @@ drop database if exists RWA;
 create database RWA;
 use RWA;
 
-drop table if exists usuario;
+drop table if exists usuario;-
 create table usuario (
     usuarioid int primary key auto_increment,
     usuario varchar(25),
